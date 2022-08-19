@@ -1,7 +1,7 @@
-package com.ngle.borrower2.dao;
+package com.ngle.borrower.dao;
 
-import com.ngle.borrower2.Beans.User;
-import com.ngle.borrower2.mapper.UserMapper;
+import com.ngle.borrower.Beans.User;
+import com.ngle.borrower.mapper.UserMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 

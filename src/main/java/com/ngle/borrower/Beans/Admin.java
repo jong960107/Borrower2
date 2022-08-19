@@ -1,4 +1,4 @@
-package com.ngle.borrower2.Beans;
+package com.ngle.borrower.Beans;
 
 import lombok.Data;
 

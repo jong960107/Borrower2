@@ -1,4 +1,4 @@
-package com.ngle.borrower2.controller;
+package com.ngle.borrower.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

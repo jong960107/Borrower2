@@ -1,7 +1,7 @@
-package com.ngle.borrower2.service;
+package com.ngle.borrower.service;
 
-import com.ngle.borrower2.Beans.User;
-import com.ngle.borrower2.dao.UserDao;
+import com.ngle.borrower.Beans.User;
+import com.ngle.borrower.dao.UserDao;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

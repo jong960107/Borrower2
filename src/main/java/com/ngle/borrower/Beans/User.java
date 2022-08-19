@@ -1,4 +1,4 @@
-package com.ngle.borrower2.Beans;
+package com.ngle.borrower.Beans;
 
 import lombok.Data;
 import org.springframework.stereotype.Repository;
@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 @Repository
 public class User {
 
-    private long id;
+    private int user_id;
     private String user_email;
     private String user_password;
     private LocalDateTime createDate;

@@ -1,4 +1,4 @@
-package com.ngle.borrower2;
+package com.ngle.borrower;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

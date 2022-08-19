@@ -1,7 +1,8 @@
-package com.ngle.borrower2.mapper;
+package com.ngle.borrower.mapper;
 
-import com.ngle.borrower2.Beans.User;
+import com.ngle.borrower.Beans.User;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
 
@@ -9,5 +10,5 @@ import org.apache.ibatis.annotations.Select;
 public interface UserMapper {
 
     @Select("select user_email,user_password from user where user_id=#{user_id}")
-    User getUserData(int user_id);
+    User getUserData(@Param("user_id") int user_id);
 }

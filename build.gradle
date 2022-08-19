@@ -20,7 +20,9 @@ repositories {
 
 dependencies {
     // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'
+    // https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc10
+
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.28'
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0'

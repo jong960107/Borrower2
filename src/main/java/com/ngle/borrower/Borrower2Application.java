@@ -1,4 +1,4 @@
-package com.ngle.borrower2;
+package com.ngle.borrower;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
